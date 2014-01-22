@@ -1,6 +1,6 @@
 iTerm2
 
-    http://www.iterm2.com/#/section/downloads
+`http://www.iterm2.com/#/section/downloads`
     
 Get the iTerm color settings
 
