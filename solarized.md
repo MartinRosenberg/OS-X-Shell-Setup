@@ -22,3 +22,8 @@ install a patched font
     
 Set this font in iTerm2 (14px) (iTerm -> preferences -> profiles -> text).
 
+- Regular Font -> "Change Font"
+
+- Non-ASCII Font -> "Change Font"
+
+Restart iTerm for all changes to take effect.
