@@ -1,4 +1,6 @@
-iTerm2
+# How to install
+
+## iTerm2
 
     http://www.iterm2.com/#/section/downloads
     
@@ -10,13 +12,15 @@ Apply them in iTerm through iTerm -> preferences -> profiles -> -> colors -> loa
 
 Then open the itermcolors file, click load presets again and load the "Solarized Dark".
 
-oh my zsh (https://github.com/robbyrussell/oh-my-zsh)
+# Oh my zsh 
+
+More info here: https://github.com/robbyrussell/oh-my-zsh
     
     curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
     
 edit `~/.zshrc` and set `ZSH_THEME="agnoster"`
 
-install a patched font
+## Install a patched font
 
     https://github.com/Lokaltog/powerline-fonts/blob/master/Meslo/Meslo%20LG%20M%20DZ%20Regular%20for%20Powerline.otf
     
