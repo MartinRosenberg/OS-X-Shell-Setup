@@ -1,1 +1,1 @@
-![Alt text](../../agnoster/3712874/raw/5d28e2d9fe2e4d0a4fda0315ad97bdafa399425c/screenshot.png)
+![Solarized](http://i59.tinypic.com/2v15dur.png)
