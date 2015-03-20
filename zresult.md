@@ -1,1 +1,0 @@
-![Solarized](http://i59.tinypic.com/2v15dur.png)
