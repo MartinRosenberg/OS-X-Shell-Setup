@@ -8,7 +8,7 @@ Get the iTerm color settings
 
     https://raw.github.com/altercation/solarized/master/iterm2-colors-solarized/Solarized%20Dark.itermcolors
     
-Apply them in iTerm through iTerm -> preferences -> profiles -> -> colors -> load presets -> import. You can create a different profile, other than Default if you wish to do so.
+Apply them in iTerm through iTerm -> preferences -> profiles -> colors -> load presets -> import. You can create a different profile, other than Default if you wish to do so.
 
 Then open the itermcolors file, click load presets again and load the "Solarized Dark".
 
