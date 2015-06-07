@@ -6,11 +6,15 @@
     
 Get the iTerm color settings
 
-    https://raw.github.com/altercation/solarized/master/iterm2-colors-solarized/Solarized%20Dark.itermcolors
-    
-Apply them in iTerm through iTerm -> preferences -> profiles -> colors -> load presets -> import. You can create a different profile, other than Default if you wish to do so.
+### Dark
 
-Then open the itermcolors file, click load presets again and load the "Solarized Dark".
+    https://raw.githubusercontent.com/altercation/solarized/master/iterm2-colors-solarized/Solarized%20Dark.itermcolors
+
+### Light
+
+    https://raw.githubusercontent.com/altercation/solarized/master/iterm2-colors-solarized/Solarized%20Light.itermcolors
+    
+Just save it somewhere and open the file(s). The color settings will be imported into iTerm2. Apply them in iTerm through iTerm -> preferences -> profiles -> colors -> load presets. You can create a different profile, other than Default if you wish to do so.
 
 # Oh my zsh 
 
