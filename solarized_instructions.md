@@ -6,9 +6,7 @@
     
 Get the iTerm color settings
 
-### Dark
-
-    https://raw.githubusercontent.com/altercation/solarized/master/iterm2-colors-solarized/Solarized%20Dark.itermcolors
+- (Dark colors)[https://raw.githubusercontent.com/altercation/solarized/master/iterm2-colors-solarized/Solarized%20Dark.itermcolors]
 
 ### Light
 
