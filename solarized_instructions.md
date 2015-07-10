@@ -2,7 +2,7 @@
 
 ## iTerm2
 
-    http://www.iterm2.com/#/section/downloads
+- [Download](http://www.iterm2.com/downloads.html) and install iTerm2 (it has better color fidelity than the built in Terminal).
     
 Get the iTerm color settings
 
