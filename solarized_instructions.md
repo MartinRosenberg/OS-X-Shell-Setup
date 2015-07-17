@@ -22,7 +22,7 @@ edit `~/.zshrc` and set `ZSH_THEME="agnoster"`
 
 ## Install a patched font
 
-- [Meslo](https://github.com/Lokaltog/powerline-fonts/blob/master/Meslo/Meslo%20LG%20M%20DZ%20Regular%20for%20Powerline.otf) (the one in the screenshot)
+- [Meslo](https://github.com/Lokaltog/powerline-fonts/blob/master/Meslo/Meslo%20LG%20M%20DZ%20Regular%20for%20Powerline.otf) (the one in the screenshot). Click "view raw" to download the font.
 - [Others @ powerline fonts](https://github.com/powerline/fonts)
     
 Set this font in iTerm2 (14px is my personal preference) (iTerm -> preferences -> profiles -> text).
