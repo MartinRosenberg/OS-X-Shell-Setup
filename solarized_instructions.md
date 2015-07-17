@@ -25,7 +25,7 @@ edit `~/.zshrc` and set `ZSH_THEME="agnoster"`
 - [Meslo](https://github.com/Lokaltog/powerline-fonts/blob/master/Meslo/Meslo%20LG%20M%20DZ%20Regular%20for%20Powerline.otf) (the one in the screenshot). Click "view raw" to download the font.
 - [Others @ powerline fonts](https://github.com/powerline/fonts)
     
-Double click the downloaded font and press "Install Font".
+Open the downloaded font and press "Install Font".
 
 Set this font in iTerm2 (14px is my personal preference) (iTerm -> preferences -> profiles -> text).
 
