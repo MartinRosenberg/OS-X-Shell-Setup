@@ -30,7 +30,6 @@ Open the downloaded font and press "Install Font".
 Set this font in iTerm2 (14px is my personal preference) (iTerm -> preferences -> profiles -> text).
 
 - Regular Font -> "Change Font"
-
 - Non-ASCII Font -> "Change Font"
 
 Restart iTerm for all changes to take effect.
