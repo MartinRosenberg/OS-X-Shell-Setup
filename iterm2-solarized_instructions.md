@@ -1,5 +1,6 @@
 # How to install
 
+
 ## iTerm2
 
 - [Download](http://www.iterm2.com/downloads.html) and install iTerm2 (it has better color fidelity than the built in Terminal).
