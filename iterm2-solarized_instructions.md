@@ -6,7 +6,7 @@
     
 Get the iTerm color settings
 
-- [Dark theme] (https://gist.github.com/kevin-smets/8568070#file-solarized-dark-fixed-itermcolors) This is the theme from the screenshot, which fixes one thing: the Ansi 8 Color is not readable on the set background. This value has been replaced by the one from the Solarized high contrast theme.
+- [Dark theme] (https://gist.github.com/kevin-smets/8568070#file-solarized-dark-fixed-itermcolors) This link is the theme from the screenshot, but it fixes one bug: by default, the Ansi 8 Color is not readable on the set background. This value has been replaced by the one from the Solarized high contrast theme.
 - [Light theme](https://raw.githubusercontent.com/altercation/solarized/master/iterm2-colors-solarized/Solarized%20Light.itermcolors)
 - [More themes @ iterm2colorschemes](http://iterm2colorschemes.com/)
     
@@ -15,8 +15,10 @@ Just save it somewhere and open the file(s). The color settings will be imported
 # Oh my zsh 
 
 More info here: https://github.com/robbyrussell/oh-my-zsh
+
+## Install with curl
     
-    curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+    sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
     
 edit `~/.zshrc` and set `ZSH_THEME="agnoster"`
 
