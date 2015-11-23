@@ -20,7 +20,7 @@ More info here: https://github.com/robbyrussell/oh-my-zsh
     
     sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
     
-edit `~/.zshrc` and set `ZSH_THEME="agnoster"`
+WHen the installation is done, edit `~/.zshrc` and set `ZSH_THEME="agnoster"`
 
 ## Install a patched font
 
@@ -34,8 +34,8 @@ Set this font in iTerm2 (14px is my personal preference) (iTerm -> preferences -
 - Regular Font -> "Change Font"
 - Non-ASCII Font -> "Change Font"
 
-Restart iTerm for all changes to take effect.
+Restart iTerm2 for all changes to take effect.
 
 ## Shorter prompt style
 
-By default, your prompt will now show “user@hostname” in the prompt. This will make your prompt rather bloated. Optionally set `DEFAULT_USER` in `~/.zshrc` to your regular username (these must match) to hide the “user@hostname” info when you’re logged in as yourself on your local machine. You can be sure of the value by executing `whoami` in the terminal.
+By default, your prompt will now show “user@hostname” in the prompt. This will make your prompt rather bloated. Optionally set `DEFAULT_USER` in `~/.zshrc` to your regular username (these must match) to hide the “user@hostname” info when you’re logged in as yourself on your local machine. You can check your username value by executing `whoami` in the terminal.
