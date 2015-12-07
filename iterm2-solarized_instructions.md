@@ -20,7 +20,7 @@ More info here: https://github.com/robbyrussell/oh-my-zsh
     
     sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
     
-WHen the installation is done, edit `~/.zshrc` and set `ZSH_THEME="agnoster"`
+When the installation is done, edit `~/.zshrc` and set `ZSH_THEME="agnoster"`
 
 ## Install a patched font
 
