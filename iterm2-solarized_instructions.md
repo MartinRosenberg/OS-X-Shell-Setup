@@ -6,7 +6,7 @@
     
 Get the iTerm color settings
 
-- [Dark theme] (https://gist.github.com/kevin-smets/8568070#file-solarized-dark-fixed-itermcolors) This link is the theme from the screenshot, but it fixes one bug: by default, the Ansi 8 Color is not readable on the set background. This value has been replaced by the one from the Solarized high contrast theme.
+- [Dark theme](https://raw.githubusercontent.com/altercation/solarized/master/iterm2-colors-solarized/Solarized%20Dark.itermcolors)
 - [Light theme](https://raw.githubusercontent.com/altercation/solarized/master/iterm2-colors-solarized/Solarized%20Light.itermcolors)
 - [More themes @ iterm2colorschemes](http://iterm2colorschemes.com/)
     
