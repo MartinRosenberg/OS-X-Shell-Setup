@@ -36,6 +36,28 @@ Set this font in iTerm2 (14px is my personal preference) (iTerm -> preferences -
 
 Restart iTerm2 for all changes to take effect.
 
+## Enable word jumps
+
+By default, word jumps (options + → or ←) do not work. You can make this work by going to iTerm - preferences - Keys.
+
+Under global shortcut keys, add the following keyboard shortcuts:
+
+### Option + right
+
+```
+⌥→
+Send Escape Sequence
+f
+```
+
+### Option + right
+
+```
+⌥←
+Send Escape Sequence
+b
+```
+
 ## Shorter prompt style
 
 By default, your prompt will now show “user@hostname” in the prompt. This will make your prompt rather bloated. Optionally set `DEFAULT_USER` in `~/.zshrc` to your regular username (these must match) to hide the “user@hostname” info when you’re logged in as yourself on your local machine. You can check your username value by executing `whoami` in the terminal.
