@@ -50,7 +50,7 @@ Send Escape Sequence
 f
 ```
 
-### Option + right
+### Option + left
 
 ```
 ⌥←
