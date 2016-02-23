@@ -48,7 +48,7 @@ can be found in the section below.
 
 ## Auto suggestions (for oh-my-zsh)
 
-![Auto suggestions](http://i65.tinypic.com/25g76fm.png)
+![Auto suggestions](http://i66.tinypic.com/b5i9dv.png)
 
 Just follow these steps: https://github.com/tarruda/zsh-autosuggestions#oh-my-zsh
 
