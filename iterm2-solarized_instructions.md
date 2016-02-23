@@ -50,7 +50,7 @@ can be found in the section below:
 
 Just follow these steps: https://github.com/tarruda/zsh-autosuggestions#oh-my-zsh
 
-To get this ![Auto suggestions](http://i67.tinypic.com/2is6utx.png)
+To get this ![Auto suggestions](http://i65.tinypic.com/25g76fm.png)
 
 ## Enable word jumps
 
