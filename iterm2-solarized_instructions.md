@@ -36,6 +36,22 @@ Set this font in iTerm2 (14px is my personal preference) (iTerm -> preferences -
 
 Restart iTerm2 for all changes to take effect.
 
+# Further tweaking
+
+Things like
+
+- auto suggestions
+- word jumping with arrow keys
+- shorter prompt style
+
+can be found in the section below: 
+
+## Auto suggestions (for oh-my-zsh)
+
+Just follow these steps: https://github.com/tarruda/zsh-autosuggestions#oh-my-zsh
+
+To get this ![Auto suggestions](http://i67.tinypic.com/2is6utx.png)
+
 ## Enable word jumps
 
 By default, word jumps (options + → or ←) do not work. You can make this work by going to iTerm - preferences - Keys.
