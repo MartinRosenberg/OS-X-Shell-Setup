@@ -44,13 +44,13 @@ Things like
 - word jumping with arrow keys
 - shorter prompt style
 
-can be found in the section below: 
+can be found in the section below.
 
 ## Auto suggestions (for oh-my-zsh)
 
-Just follow these steps: https://github.com/tarruda/zsh-autosuggestions#oh-my-zsh
+![Auto suggestions](http://i65.tinypic.com/25g76fm.png)
 
-To get this ![Auto suggestions](http://i65.tinypic.com/25g76fm.png)
+Just follow these steps: https://github.com/tarruda/zsh-autosuggestions#oh-my-zsh
 
 ## Enable word jumps
 
