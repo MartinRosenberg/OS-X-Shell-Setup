@@ -54,7 +54,15 @@ Just follow these steps: https://github.com/tarruda/zsh-autosuggestions#oh-my-zs
 
 ## Enable word jumps
 
-By default, word jumps (options + → or ←) do not work. You can make this work by going to iTerm - preferences - Keys.
+By default, word jumps (options + → or ←) do not work. You can make this work by adding the following to your `~/.zshrc`
+
+```
+bindkey -e
+bindkey '^[[1;9C' forward-word
+bindkey '^[[1;9D' backward-word
+```
+
+If that does not work, an alternative is to go to iTerm - preferences - Keys.
 
 Under global shortcut keys, add the following keyboard shortcuts:
 
