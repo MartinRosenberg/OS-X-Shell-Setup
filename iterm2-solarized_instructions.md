@@ -93,10 +93,12 @@ By default, your prompt will now show “user@hostname” in the prompt. This wi
 brew install zsh-syntax-highlighting
 ```
 
+If you do not have or do not like homebrew, follow the instructions from ![the installation instructions](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
+
 After that, add
 
 ```
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
 
-to your `.zshrc` file. **Make sure it's at the end!**. After that, run `source ~/.zshrc`.
+to **the end** of your `.zshrc` file. After that, run `source ~/.zshrc`.
