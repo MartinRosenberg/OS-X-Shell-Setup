@@ -43,6 +43,7 @@ Things like
 - auto suggestions
 - word jumping with arrow keys
 - shorter prompt style
+- syntax highlighting
 
 can be found in the section below.
 
@@ -85,3 +86,17 @@ b
 ## Shorter prompt style
 
 By default, your prompt will now show “user@hostname” in the prompt. This will make your prompt rather bloated. Optionally set `DEFAULT_USER` in `~/.zshrc` to your regular username (these must match) to hide the “user@hostname” info when you’re logged in as yourself on your local machine. You can check your username value by executing `whoami` in the terminal.
+
+## Syntax highlighting
+
+```
+brew install zsh-syntax-highlighting
+```
+
+After that, add
+
+```
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+```
+
+to your `.zshrc` file. **Make sure it's at the end!**. After that, run `source ~/.zshrc`.
