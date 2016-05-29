@@ -1,1 +1,1 @@
-![Solarized](http://i59.tinypic.com/2v15dur.png)
+![Solarized](http://oi63.tinypic.com/ipcuax.jpg)
