@@ -55,7 +55,7 @@ Just follow these steps: https://github.com/tarruda/zsh-autosuggestions#oh-my-zs
 
 ## Enable word jumps
 
-By default, word jumps (options + → or ←) do not work. You can make this work by adding the following to your `~/.zshrc`
+By default, word jumps (option + → or ←) do not work. You can make this work by adding the following to your `~/.zshrc`
 
 ```
 bindkey -e
