@@ -29,10 +29,7 @@ When the installation is done, edit `~/.zshrc` and set `ZSH_THEME="agnoster"`
     
 Open the downloaded font and press "Install Font".
 
-Set this font in iTerm2 (14px is my personal preference) (iTerm -> preferences -> profiles -> text).
-
-- Regular Font -> "Change Font"
-- Non-ASCII Font -> "Change Font"
+Set this font in iTerm2 (14px is my personal preference) (iTerm -> Preferences -> Profiles -> Text -> Change Font).
 
 Restart iTerm2 for all changes to take effect.
 
