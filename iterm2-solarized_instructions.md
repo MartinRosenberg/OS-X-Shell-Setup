@@ -50,6 +50,8 @@ can be found in the section below.
 
 Just follow these steps: https://github.com/tarruda/zsh-autosuggestions#oh-my-zsh
 
+If the auto completions do not appear to show, it could be a problem with your color scheme. Under "iTerm -> Preferences -> Colors tab", check the value of Black Bright, that is the color your auto suggestions will have. For Solarized Dark I changed the value for this to "586e75".
+
 ## Enable word jumps
 
 By default, word jumps (option + → or ←) do not work. You can make this work by adding the following to your `~/.zshrc`
