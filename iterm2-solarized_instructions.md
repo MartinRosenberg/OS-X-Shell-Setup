@@ -54,17 +54,7 @@ If the auto suggestions do not appear to show, it could be a problem with your c
 
 ## Enable word jumps
 
-By default, word jumps (option + → or ←) do not work. You can make this work by adding the following to your `~/.zshrc`
-
-```
-bindkey -e
-bindkey '^[[1;9C' forward-word
-bindkey '^[[1;9D' backward-word
-```
-
-If that does not work, an alternative is to go to iTerm - preferences - Keys.
-
-Under global shortcut keys, add the following keyboard shortcuts:
+By default, word jumps (option + → or ←) do not work. To enable these, go to "iTerm -> Preferences -> Profiles -> Keys". Press the + sign under the list of key mappings and add the following sequences:
 
 ### Option + right
 
