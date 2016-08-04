@@ -10,9 +10,9 @@ Get the iTerm color settings
 - [Solarized Light theme](https://raw.githubusercontent.com/altercation/solarized/master/iterm2-colors-solarized/Solarized%20Light.itermcolors)
 - [More themes @ iterm2colorschemes](http://iterm2colorschemes.com/)
     
-Just save it somewhere and open the file(s). The color settings will be imported into iTerm2. Apply them in iTerm through iTerm -> preferences -> profiles -> colors -> load presets. You can create a different profile, other than Default if you wish to do so.
+Just save it somewhere and open the file(s). The color settings will be imported into iTerm2. Apply them in iTerm through iTerm -> preferences -> profiles -> colors -> load presets. You can create a different profile other than `Default` if you wish to do so.
 
-# Oh my zsh 
+# Oh My Zsh 
 
 More info here: https://github.com/robbyrussell/oh-my-zsh
 
@@ -44,7 +44,7 @@ Things like
 
 can be found in the section below.
 
-## Auto suggestions (for oh-my-zsh)
+## Auto suggestions (for Oh My Zsh)
 
 ![Auto suggestions](http://i66.tinypic.com/b5i9dv.png)
 
@@ -74,7 +74,7 @@ b
 
 ## Shorter prompt style
 
-By default, your prompt will now show “user@hostname” in the prompt. This will make your prompt rather bloated. Optionally set `DEFAULT_USER` in `~/.zshrc` to your regular username (these must match) to hide the “user@hostname” info when you’re logged in as yourself on your local machine. You can check your username value by executing `whoami` in the terminal.
+By default, your prompt will now show “user@hostname” in the prompt. This will make your prompt rather bloated. Optionally set `DEFAULT_USER` in `~/.zshrc` to your regular username (these must match) to hide the “user@hostname” info when you’re logged in as yourself on your local machine. You can get your exact username value by executing `whoami` in the terminal.
 
 ## Syntax highlighting
 
