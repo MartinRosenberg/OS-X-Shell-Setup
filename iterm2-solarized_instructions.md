@@ -2,7 +2,11 @@
 
 ## iTerm2
 
-- [Download](http://www.iterm2.com/downloads.html) and install iTerm2 (it has better color fidelity than the built in Terminal).
+    brew cask install iterm2
+    
+Or, if you do not have homebrew (you should ;)): [Download](http://www.iterm2.com/downloads.html) and install iTerm2 
+
+iTerm2 has better color fidelity than the built in Terminal, so your themes will look better.
     
 Get the iTerm color settings
 
