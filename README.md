@@ -1,4 +1,4 @@
-![Solarized](http://oi63.tinypic.com/ipcuax.jpg)
+![Solarized](img/solarized.jpg)
 
 *Forked from <https://gist.github.com/kevin-smets/8568070>.*
 
@@ -54,7 +54,7 @@ can be found in the section below.
 
 ## Auto suggestions (for Oh My Zsh)
 
-![Auto suggestions](http://i66.tinypic.com/b5i9dv.png)
+![Auto suggestions](img/zsh-autosuggestions.jpg)
 
 Just follow these steps: https://github.com/tarruda/zsh-autosuggestions#oh-my-zsh
 
