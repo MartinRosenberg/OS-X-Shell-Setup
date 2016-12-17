@@ -1,1 +1,0 @@
-![Solarized](http://oi63.tinypic.com/ipcuax.jpg)
