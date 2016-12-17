@@ -1,3 +1,5 @@
+![Solarized](http://oi63.tinypic.com/ipcuax.jpg)
+
 # How to install
 
 ## iTerm2
