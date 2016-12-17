@@ -4,7 +4,9 @@
 
 *Forked from <https://gist.github.com/kevin-smets/8568070>.*
 
-## Install Homebrew
+## Homebrew
+
+### Install
 
 The installation process recommended by [Homebrew](http://brew.sh/) is quite simple. Just run:
 
@@ -13,6 +15,22 @@ The installation process recommended by [Homebrew](http://brew.sh/) is quite sim
 ```
 
 If this doesn't work for you (e.g. if you're still on OS X 10.5), they offer [alternatives](https://github.com/Homebrew/brew/blob/master/docs/Installation.md#alternative-installs).
+
+### Set up
+
+Actually, do both of these things periodically when using Homebrew.
+
+1. Make sure nothing will stop it from working correctly.
+
+    ```sh
+    brew doctor
+    ```
+    
+2. Update all the formulae, just in case.
+
+    ```sh
+    brew update
+    ```
 
 ## iTerm2
 
@@ -30,13 +48,28 @@ Alternatively, you can [download](http://www.iterm2.com/downloads.html) the late
 
 iTerm2 has better color fidelity than the built in Terminal, so your themes will look better.
     
-Get the iTerm color settings
+1. Choose an iTerm2 color scheme from [Iterm2-color-schemes](http://iterm2colorschemes.com/).
+    - [Solarized Dark](https://raw.githubusercontent.com/altercation/solarized/master/iterm2-colors-solarized/Solarized%20Dark.itermcolors) is a popular choice. It is now included in iTerm2. I recommend changing the value of Black Bright (to "586e75" perhaps) to contrast it from the background. (This is necessary if you use [syntax highlighting](#syntax-highlighting) below.)
+    - If you're used to JetBrains software (IntelliJ, PyCharm, RubyMine), try out [JetBrains Darcula](https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/JetBrains%20Darcula.itermcolors).
+2. Save it anywhere and open it. The color settings will be imported into iTerm2. You are now free to delete the file.
+3. Apply it in iTerm2 by going to **iTerm2 → Preferences → Profiles → Colors → Color Presets**.
 
-- [Solarized Dark theme](https://raw.githubusercontent.com/altercation/solarized/master/iterm2-colors-solarized/Solarized%20Dark.itermcolors)
-- [Solarized Light theme](https://raw.githubusercontent.com/altercation/solarized/master/iterm2-colors-solarized/Solarized%20Light.itermcolors)
-- [More themes @ iterm2colorschemes](http://iterm2colorschemes.com/)
+## zsh
+
+1. Install zsh:
+
+    ```sh
+    brew install zsh
+    ```
     
-Just save it somewhere and open the file(s). The color settings will be imported into iTerm2. Apply them in iTerm through **iTerm2 → Preferences → Profiles → Colors → Color Presets**. You can create a different profile other than `Default` if you wish to do so.
+2. Set it as the default shell:
+
+    ```sh
+    sudo -s 'echo /usr/local/bin/zsh >> /etc/shells'
+    chsh -s /usr/local/bin/zsh
+    ```
+
+Or check out installation methods [for other OSes](https://gist.github.com/derhuerst/12a1558a4b408b3b2b6e).
 
 ## Oh My Zsh 
 
@@ -52,7 +85,12 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 
 ### Set a theme
 
-Edit `~/.zshrc` and set `ZSH_THEME="agnoster"`.
+1. Edit `~/.zshrc` and set `ZSH_THEME="agnoster"`.
+2. Run:
+
+    ```sh
+    source ~/.zshrc
+    ```
 
 ## Install a patched font
 
@@ -67,14 +105,19 @@ Restart iTerm2 for all changes to take effect.
 
 ## Further tweaking
 
-Things like
+### Homebrew aliases
 
-- auto suggestions
-- word jumping with arrow keys
-- shorter prompt style
-- syntax highlighting
+1. Add the `brew` plugin to `~/.zshrc`:
 
-can be found in the section below.
+    ```sh
+    plugins=(... brew)
+    ```
+    
+2. Source `~/.zshrc` (or just start a new session).
+
+    ```sh
+    source ~/.zshrc
+    ```
 
 ### Auto suggestions
 
@@ -88,7 +131,7 @@ Just follow the [steps](https://github.com/tarruda/zsh-autosuggestions#oh-my-zsh
     git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
     ```
 
-2. Add the plugin to `~/.zshrc`:
+2. Add the `zsh-autosuggestions` plugin to `~/.zshrc`:
 
     ```sh
     plugins=(... zsh-autosuggestions)
@@ -100,7 +143,7 @@ Just follow the [steps](https://github.com/tarruda/zsh-autosuggestions#oh-my-zsh
     source ~/.zshrc
     ```
     
-If the auto suggestions do not appear to show, it could be a problem with your color scheme. Under **iTerm2 → Preferences → Profiles → Colors**, check the value of Black Bright, that is the color your auto suggestions will have. It will be displayed on top of the Background color, so if there is not enough contrast between the two, you won't see the suggestions, even if they're actually there.. For Solarized Dark I changed the value of Black Bright to "586e75".
+If the auto suggestions do not appear to show, it could be a problem with your color scheme. Under **iTerm2 → Preferences → Profiles → Colors**, check the value of Black Bright, that is the color your auto suggestions will have. It will be displayed on top of the Background color, so if there is not enough contrast between the two, you won't see the suggestions, even if they're actually there.
 
 ### Enable word jumps
 
