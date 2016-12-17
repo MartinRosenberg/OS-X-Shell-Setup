@@ -1,5 +1,7 @@
 ![Solarized](http://oi63.tinypic.com/ipcuax.jpg)
 
+*Forked from <https://gist.github.com/kevin-smets/8568070>.*
+
 # How to install
 
 ## iTerm2
