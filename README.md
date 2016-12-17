@@ -1,14 +1,32 @@
+# OS X Shell Setup
+
 ![solarized](img/solarized.jpg)
 
 *Forked from <https://gist.github.com/kevin-smets/8568070>.*
 
-# How to install
+## Install Homebrew
+
+The installation process recommended by [Homebrew](http://brew.sh/) is quite simple. Just run:
+
+```sh
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+If this doesn't work for you (e.g. if you're still on OS X 10.5), they offer [alternatives](https://github.com/Homebrew/brew/blob/master/docs/Installation.md#alternative-installs).
 
 ## iTerm2
 
-    brew cask install iterm2
+### Install
+
+Now that you've installed Homebrew, you can just run:
+
+```sh
+brew cask install iterm2
+```
     
-Or, if you do not have homebrew (you should): [Download](http://www.iterm2.com/downloads.html) and install iTerm2.
+Alternatively, you can [download](http://www.iterm2.com/downloads.html) the latest test release or nightly build if you're feeling adventurous.
+
+### Install color schemes
 
 iTerm2 has better color fidelity than the built in Terminal, so your themes will look better.
     
@@ -20,17 +38,21 @@ Get the iTerm color settings
     
 Just save it somewhere and open the file(s). The color settings will be imported into iTerm2. Apply them in iTerm through **iTerm2 → Preferences → Profiles → Colors → Color Presets**. You can create a different profile other than `Default` if you wish to do so.
 
-# Oh My Zsh 
+## Oh My Zsh 
 
 More info here: https://github.com/robbyrussell/oh-my-zsh
 
-## Install with curl
+### Install
+
+Go ahead and install with `curl`, but they do offer [alternatives](https://github.com/robbyrussell/oh-my-zsh#basic-installation).
     
 ```sh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
-    
-When the installation is done, edit `~/.zshrc` and set `ZSH_THEME="agnoster"`
+
+### Set a theme
+
+Edit `~/.zshrc` and set `ZSH_THEME="agnoster"`.
 
 ## Install a patched font
 
@@ -43,7 +65,7 @@ Set this font in iTerm2 (14px is my personal preference) via **iTerm2 → Prefer
 
 Restart iTerm2 for all changes to take effect.
 
-# Further tweaking
+## Further tweaking
 
 Things like
 
@@ -54,7 +76,7 @@ Things like
 
 can be found in the section below.
 
-## Auto suggestions
+### Auto suggestions
 
 ![zsh-autosuggestions](img/zsh-autosuggestions.jpg)
 
@@ -80,11 +102,11 @@ Just follow the [steps](https://github.com/tarruda/zsh-autosuggestions#oh-my-zsh
     
 If the auto suggestions do not appear to show, it could be a problem with your color scheme. Under **iTerm2 → Preferences → Profiles → Colors**, check the value of Black Bright, that is the color your auto suggestions will have. It will be displayed on top of the Background color, so if there is not enough contrast between the two, you won't see the suggestions, even if they're actually there.. For Solarized Dark I changed the value of Black Bright to "586e75".
 
-## Enable word jumps
+### Enable word jumps
 
 By default, word jumps (<kbd>⌥</kbd> + <kbd>→</kbd> and <kbd>⌥</kbd> + <kbd>←</kbd>) do not work. To enable these, go to **iTerm2 → Preferences → Profiles → Keys**. Press the + sign under the list of key mappings and add the following sequences:
 
-### Option + right
+#### Option + right
 
 ```
 ⌥→
@@ -92,7 +114,7 @@ Send Escape Sequence
 f
 ```
 
-### Option + left
+#### Option + left
 
 ```
 ⌥←
@@ -100,11 +122,11 @@ Send Escape Sequence
 b
 ```
 
-## Shorter prompt style
+### Shorter prompt style
 
 By default, your prompt will now show “user@hostname” in the prompt. This will make your prompt rather bloated. Optionally set `DEFAULT_USER` in `~/.zshrc` to your regular username (these must match) to hide the “user@hostname” info when you’re logged in as yourself on your local machine. You can get your exact username value by executing `whoami` in the terminal.
 
-## Syntax highlighting
+### Syntax highlighting
 
 ```
 brew install zsh-syntax-highlighting
