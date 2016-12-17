@@ -1,4 +1,4 @@
-![Solarized](img/solarized.jpg)
+![solarized](img/solarized.jpg)
 
 *Forked from <https://gist.github.com/kevin-smets/8568070>.*
 
@@ -8,7 +8,7 @@
 
     brew cask install iterm2
     
-Or, if you do not have homebrew (you should ;)): [Download](http://www.iterm2.com/downloads.html) and install iTerm2 
+Or, if you do not have homebrew (you should): [Download](http://www.iterm2.com/downloads.html) and install iTerm2.
 
 iTerm2 has better color fidelity than the built in Terminal, so your themes will look better.
     
@@ -18,7 +18,7 @@ Get the iTerm color settings
 - [Solarized Light theme](https://raw.githubusercontent.com/altercation/solarized/master/iterm2-colors-solarized/Solarized%20Light.itermcolors)
 - [More themes @ iterm2colorschemes](http://iterm2colorschemes.com/)
     
-Just save it somewhere and open the file(s). The color settings will be imported into iTerm2. Apply them in iTerm through iTerm -> preferences -> profiles -> colors -> load presets. You can create a different profile other than `Default` if you wish to do so.
+Just save it somewhere and open the file(s). The color settings will be imported into iTerm2. Apply them in iTerm through **iTerm2 → Preferences → Profiles → Colors → Color Presets**. You can create a different profile other than `Default` if you wish to do so.
 
 # Oh My Zsh 
 
@@ -26,7 +26,9 @@ More info here: https://github.com/robbyrussell/oh-my-zsh
 
 ## Install with curl
     
-    sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```sh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
     
 When the installation is done, edit `~/.zshrc` and set `ZSH_THEME="agnoster"`
 
@@ -37,7 +39,7 @@ When the installation is done, edit `~/.zshrc` and set `ZSH_THEME="agnoster"`
     
 Open the downloaded font and press "Install Font".
 
-Set this font in iTerm2 (14px is my personal preference) (iTerm -> Preferences -> Profiles -> Text -> Change Font).
+Set this font in iTerm2 (14px is my personal preference) via **iTerm2 → Preferences → Profiles → Text → Change Font**.
 
 Restart iTerm2 for all changes to take effect.
 
@@ -52,17 +54,35 @@ Things like
 
 can be found in the section below.
 
-## Auto suggestions (for Oh My Zsh)
+## Auto suggestions
 
-![Auto suggestions](img/zsh-autosuggestions.jpg)
+![zsh-autosuggestions](img/zsh-autosuggestions.jpg)
 
-Just follow these steps: https://github.com/tarruda/zsh-autosuggestions#oh-my-zsh
+Just follow the [steps](https://github.com/tarruda/zsh-autosuggestions#oh-my-zsh), included here for convenience:
 
-If the auto suggestions do not appear to show, it could be a problem with your color scheme. Under "iTerm -> Preferences -> Colors tab", check the value of Black Bright, that is the color your auto suggestions will have. It will be displayed on top of the Background color, so if there is not enough contrast between the two, you won't see the suggestions, even if they're actually there.. For Solarized Dark I changed the value of Black Bright to "586e75".
+1. Clone the repository into `$ZSH_CUSTOM/plugins` (by default `~/.oh-my-zsh/custom/plugins`)
+
+    ```sh
+    git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+    ```
+
+2. Add the plugin to `~/.zshrc`:
+
+    ```sh
+    plugins=(... zsh-autosuggestions)
+    ```
+    
+3. Source `~/.zshrc` (or just start a new session).
+
+    ```sh
+    source ~/.zshrc
+    ```
+    
+If the auto suggestions do not appear to show, it could be a problem with your color scheme. Under **iTerm2 → Preferences → Profiles → Colors**, check the value of Black Bright, that is the color your auto suggestions will have. It will be displayed on top of the Background color, so if there is not enough contrast between the two, you won't see the suggestions, even if they're actually there.. For Solarized Dark I changed the value of Black Bright to "586e75".
 
 ## Enable word jumps
 
-By default, word jumps (option + → or ←) do not work. To enable these, go to "iTerm -> Preferences -> Profiles -> Keys". Press the + sign under the list of key mappings and add the following sequences:
+By default, word jumps (<kbd>⌥</kbd> + <kbd>→</kbd> and <kbd>⌥</kbd> + <kbd>←</kbd>) do not work. To enable these, go to **iTerm2 → Preferences → Profiles → Keys**. Press the + sign under the list of key mappings and add the following sequences:
 
 ### Option + right
 
@@ -98,4 +118,4 @@ After installation through homebrew, add
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
 
-to **the end** of your `.zshrc` file. After that, it's best to restart your terminal. Sourcing your `~/.zshrc` does not seem to work well with this plugin.
+to the *end* of your `.zshrc` file. After that, it's best to restart your terminal. Sourcing your `~/.zshrc` does not seem to work well with this plugin.
